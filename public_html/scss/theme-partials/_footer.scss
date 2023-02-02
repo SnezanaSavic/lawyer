@@ -5,9 +5,8 @@ footer{
     padding: 15px 0;
     
     
-    
-         .social{
-        .a{
+    .social{
+        a{
             color:$social-text;
             font-size: 2.5rem;
             transition: 1s linear;
@@ -16,9 +15,10 @@ footer{
             &:hover{
                 transform: rotate(360deg);
             }
-       
+        }
     }// social end
-     .copyright{
+
+    .copyright{
         color: $footer-text;
         font-size: 1.2rem;
         font-weight: $font-weight-medium;
@@ -26,12 +26,7 @@ footer{
         a{
             color: $footer-text;
         }
-        
-    
     }    
-    }
-
-   
     
     
 }

@@ -10281,6 +10281,23 @@ header .navbar-nav a {
 .service-section .service-item span {
   color: #1E1E1E;
 }
+.service-section.dark-service-section {
+  background-color: #11284B;
+}
+.service-section.dark-service-section h2 {
+  color: #1A77CD;
+}
+.service-section.dark-service-section .read-more {
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+}
+.service-section.dark-service-section .service-item-description {
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  height: 7.5rem;
+  overflow: hidden;
+}
 
 .team-section {
   padding: 67px 0 61px;
@@ -10355,24 +10372,24 @@ header .navbar-nav a {
 footer {
   padding: 15px 0;
 }
-footer .social .a {
+footer .social a {
   color: #312E3F;
   font-size: 2.5rem;
   -webkit-transition: 1s linear;
   transition: 1s linear;
   margin: 0 5px;
 }
-footer .social .a:hover {
+footer .social a:hover {
   -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
 }
-footer .social .copyright {
+footer .copyright {
   color: #586C88;
   font-size: 1.2rem;
   font-weight: 500;
   line-height: 4.1rem;
 }
-footer .social .copyright a {
+footer .copyright a {
   color: #586C88;
 }
 
